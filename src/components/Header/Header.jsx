@@ -1,5 +1,5 @@
 import c from './Header.module.css';
-import logo from './../../yandex_taxi_logo_norm.svg';
+import logo from './../../img/yandex_taxi_logo_norm.svg';
 
 let Header = () => {
     return (

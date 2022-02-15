@@ -1,0 +1,28 @@
+.block_2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_2 h3 {
+    font-weight: bold;
+}
+
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.start > div {
+    padding: 30px 10px 30px 10px;
+}
+
+.zag {
+    font-weight: bold;
+}
+
+mark {
+    background: #FFDF39;
+}
