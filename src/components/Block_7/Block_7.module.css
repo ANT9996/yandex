@@ -1,0 +1,16 @@
+.block_7 {
+    width: 100%;
+    padding: 50px 0 50px 0;
+    margin-bottom: 5px;
+    text-align: center;
+    background: #FFDF39;
+    font-size: 25px;
+}
+
+.block_7 b {
+    margin-right: 30px;
+}
+
+.block_7 img {
+    margin-left: 20px;
+}
