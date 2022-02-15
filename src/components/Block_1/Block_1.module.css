@@ -21,6 +21,12 @@
     background: #FFDF39;
     border-radius: 4px;
     font-size: 18px;
+    transition-duration: .1s;
+}
+
+.button:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.26);
+    transition-duration: .1s;
 }
 
 .block_img {
