@@ -1,7 +1,11 @@
+import React, { useState } from "react";
 import c from './Block_6.module.css';
 import img from './../../img/image4.png';
 
 let Block_6 = () => {
+    const [fio, setFio] = useState('');
+    const [tel, setTel] = useState('');
+
     return (
         <div className={c.block_6}>
             <div className={c.block_text}>
@@ -10,11 +14,13 @@ let Block_6 = () => {
                     <form action="/send">
                         <div className={c.field}>
                             <div>ФИО</div>
-                            <input id="fio" type="text" name="fio" required/>
+                            {fio}
+                            <input id="fio" type="text" name="fio" value={fio} onChange={event => setFio(event.target.value)} required/>
                         </div>
                         <div className={c.field}>
                             <div>Телефон</div>
-                            <input id="tel" type="tel" name="tel" required/>
+                            {tel}
+                            <input id="tel" type="tel" name="tel" value={tel} onChange={event => setTel(event.target.value)} required/>
                         </div>
                         <div className={c.form_submit}>
                             <div className={c.submit_button}>
