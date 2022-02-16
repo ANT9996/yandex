@@ -1,0 +1,33 @@
+.block_5 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item > div {
+    padding: 15px;
+    padding-right: 100px;
+}
+
+.item_img {
+    padding-right: 15px;
+}
+
+.gray {
+    color: gray;
+}
+
+.gray b {
+    color: rgb(31, 31, 31);
+}

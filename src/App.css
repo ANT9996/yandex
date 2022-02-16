@@ -2,3 +2,11 @@
     font-family: "Yandex";
     src: url('/src/fonts/YandexSansDisplay-Regular.ttf');
 }
+
+* {
+    font-family: "Yandex";
+}
+
+body {
+    min-width: 800px;
+}
