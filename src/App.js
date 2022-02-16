@@ -1,3 +1,4 @@
+import axios from 'axios';
 import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Block_1 from './components/Block_1/Block_1';
@@ -11,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 
 function App() {
+
   return (
     <div className="App">
         <Header />
