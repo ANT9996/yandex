@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.767c2dad.css",
+    "main.js": "/static/js/main.e366db3d.js",
+    "static/js/787.a392ffd3.chunk.js": "/static/js/787.a392ffd3.chunk.js",
+    "static/media/image2.png": "/static/media/image2.a1156f8e6abe4f326f94.png",
+    "static/media/image.png": "/static/media/image.d3d3d90b526a8393d73e.png",
+    "static/media/image4.png": "/static/media/image4.8b394871cccf736cafae.png",
+    "static/media/YandexSansDisplay-Regular.ttf": "/static/media/YandexSansDisplay-Regular.f7b0cd2fb662aa10f1b2.ttf",
+    "static/media/image3.png": "/static/media/image3.5c70d4cc48a38c451169.png",
+    "static/media/phone1.png": "/static/media/phone1.869f514e951fa61290dc.png",
+    "static/media/phone2.png": "/static/media/phone2.3e05ffc582af4242239a.png",
+    "static/media/yandex_taxi_logo_norm.svg": "/static/media/yandex_taxi_logo_norm.3405c9a4f0a7c3affa4acab211ac0c6b.svg",
+    "static/media/calc.svg": "/static/media/calc.ba41d0336470f7f4bcc5b6f6261cefd6.svg",
+    "static/media/money.svg": "/static/media/money.4beb56f2b862193567559d6d5865048a.svg",
+    "static/media/wrench.svg": "/static/media/wrench.585a4a8415c2b52c6e7440ff4f55b82e.svg",
+    "index.html": "/index.html",
+    "static/media/Vector.svg": "/static/media/Vector.d0ec0833e4e21b6911fde2c822a8d6f6.svg",
+    "main.767c2dad.css.map": "/static/css/main.767c2dad.css.map",
+    "main.e366db3d.js.map": "/static/js/main.e366db3d.js.map",
+    "787.a392ffd3.chunk.js.map": "/static/js/787.a392ffd3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.767c2dad.css",
+    "static/js/main.e366db3d.js"
+  ]
+}
