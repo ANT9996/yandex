@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes } from 'react-router-dom';
 import './App.css';
 import Block_1 from './components/Block_1/Block_1';
 import Block_2 from './components/Block_2/Block_1/Block_2';
@@ -12,15 +13,15 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Block_1 />
-      <Block_2 />
-      <Block_3 />
-      <Block_4 />
-      <Block_5 />
-      <Block_6 />
-      <Block_7 />
-      <Footer />
+        <Header />
+        <Block_1 />
+        <Block_2 />
+        <Block_3 />
+        <Block_4 />
+        <Block_5 />
+        <Block_6 />
+        <Block_7 />
+        <Footer />
     </div>
   );
 }

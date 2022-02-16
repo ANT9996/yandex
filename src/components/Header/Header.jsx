@@ -13,10 +13,10 @@ let Header = () => {
                 </div>
                 <div className="col-5">
                     <div className={c.nav}>
-                        <div><a href="">Начало работы</a></div>
-                        <div><a href="">Преимущества работы</a></div>
-                        <div><a href="">Приложение</a></div>
-                        <div><a href="">Контакты</a></div>
+                        <div><a href="#1">Начало работы</a></div>
+                        <div><a href="#2">Преимущества работы</a></div>
+                        <div><a href="#3">Приложение</a></div>
+                        <div><a href="#4">Контакты</a></div>
                     </div>
                 </div>
                 <div className="col-3">

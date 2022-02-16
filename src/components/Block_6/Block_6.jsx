@@ -7,14 +7,14 @@ let Block_6 = () => {
             <div className={c.block_text}>
                 <div className='mb-4'><h2><b>Оставить заявку</b></h2></div>
                 <div className={c.form}>
-                    <form action="#">
+                    <form action="/send">
                         <div className={c.field}>
                             <div>ФИО</div>
-                            <input id="fio" type="text" name="fio" />
+                            <input id="fio" type="text" name="fio" required/>
                         </div>
                         <div className={c.field}>
                             <div>Телефон</div>
-                            <input id="tel" type="tel" name="tel" />
+                            <input id="tel" type="tel" name="tel" required/>
                         </div>
                         <div className={c.form_submit}>
                             <div className={c.submit_button}>
