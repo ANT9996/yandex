@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import c from './Block_6.module.css';
 import img from './../../img/image4.png';
 import sendEmail from './../../SendMessage';
