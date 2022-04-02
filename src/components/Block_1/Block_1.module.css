@@ -33,6 +33,12 @@
     width: 60%;
 }
 
+@media (max-width:800px) {
+    .block_img {
+        display: none;
+    }
+}
+
 .block_img img {
     width: 100%;
     height: 100%;
