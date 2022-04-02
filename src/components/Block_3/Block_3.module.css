@@ -23,6 +23,11 @@
     .block_img {
         display: none;
     }
+
+    .block_text {
+        padding: 50px 20px 50px 20px;
+        width: 100%;
+    }
 }
 
 

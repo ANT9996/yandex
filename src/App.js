@@ -8,12 +8,14 @@ import Block_6 from './components/Block_6/Block_6';
 import Block_7 from './components/Block_7/Block_7';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import Mobile_Header from './components/Mobile_Header/Mobile_Header';
 
 function App() {
 
   return (
     <div className="App">
         <Header />
+        <Mobile_Header />
         <Block_1 />
         <Block_2 />
         <Block_3 />

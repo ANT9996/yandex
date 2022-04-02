@@ -4,7 +4,7 @@ import viber from './../../img/viber.png';
 
 let Block_5 = () => {
     return (
-        <div className={`container`}>
+        <div className={`container ${c.block_5}`}>
             <div><h2><b>Контакты</b></h2></div>
             <div className={c.list}>
                 <div className={c.item}>
