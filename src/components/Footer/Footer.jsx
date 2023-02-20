@@ -1,11 +1,11 @@
-import c from './Footer.module.css';
+import c from './Footer.module.scss';
 
 let Footer = () => {
     return (
         <div className={c.footer_background}>
             <div className="container p-0">
                 <div className={c.footer}>
-                    <div>
+                    <div className={c.footer_left}>
                         <div className='mb-3'>
                             Официальный партнер Яндекс Такси<br></br>
                             г.Омск

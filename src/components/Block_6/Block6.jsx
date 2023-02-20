@@ -1,8 +1,8 @@
-import c from './Block_6.module.css';
-import img from './../../img/image4.png';
+import c from './Block_6.module.scss';
+import img from '../../assets/img/image4.png';
 import sendEmail from './../../SendMessage';
 
-let Block_6 = () => {
+let Block6 = () => {
     return (
         <div className={c.block_6}>
             <div className={c.block_text}>
@@ -11,11 +11,11 @@ let Block_6 = () => {
                     <form onSubmit={sendEmail} action="#">
                         <div className={c.field}>
                             <div>ФИО</div>
-                            <input id="fio" type="text" name="fio" required />
+                            <input id="fio" type="text" name="fio" placeholder={'Сергеев Иван Алексеевич'} required />
                         </div>
                         <div className={c.field}>
                             <div>Телефон</div>
-                            <input id="tel" type="tel" name="tel" required />
+                            <input id="tel" type="tel" name="tel" placeholder={'+7 (495) 000-00-00'} required />
                         </div>
                         <div className={c.form_submit}>
                             <div className={c.submit_button}>
@@ -34,4 +34,4 @@ let Block_6 = () => {
     );
 }
 
-export default Block_6;
+export default Block6;

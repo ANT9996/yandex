@@ -1,7 +1,7 @@
-import c from './Mobile_Header.module.css';
-import logo from './../../img/yandex_taxi_logo_norm.svg';
+import c from './Mobile_Header.module.scss';
+import logo from '../../assets/img/yandex_taxi_logo_norm.svg';
 
-let Mobile_Header = () => {
+let MobileHeader = () => {
     return (
             <div className={`${c.header}`}>
                 <div><img src={logo} alt="" /></div>
@@ -18,4 +18,4 @@ let Mobile_Header = () => {
     );
 }
 
-export default Mobile_Header;
+export default MobileHeader;

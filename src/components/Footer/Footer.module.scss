@@ -6,6 +6,16 @@
     justify-content: space-between;
 }
 
+@media (max-width: 990px) {
+    .footer {
+        justify-content: center;
+    }
+
+    .footer_left {
+        text-align: center;
+    }
+}
+
 .footer > div {
     padding-bottom: 10px;
 }

@@ -1,7 +1,7 @@
-import c from './Block_7.module.css';
-import arrow from './../../img/Vector.svg'
+import c from './Block_7.module.scss';
+import arrow from '../../assets/img/Vector.svg'
 
-let Block_7 = () => {
+let Block7 = () => {
     return (
         <div className={c.block_7}>
             <b>Нет автомобиля?</b>Работать на авто компании <img src={arrow} alt="" />
@@ -9,4 +9,4 @@ let Block_7 = () => {
     );
 }
 
-export default Block_7;
+export default Block7;

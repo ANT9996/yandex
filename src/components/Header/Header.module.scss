@@ -4,6 +4,9 @@
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width:800px) {
@@ -37,18 +40,35 @@
 
 .nav > div {
     padding: 10px;
+    position: relative;
+    transition-duration: .3s;
+    &:before {
+        transition-duration: .3s;
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background: linear-gradient(90deg ,#FFDF39, transparent);
+        width: 0;
+    }
+    &:hover {
+      a {
+        color: black;
+      }
+        &:before {
+            width: 100%;
+        }
+    }
 }
 
 .nav div > a {
     text-decoration: none;
     color: gray;
     transition-duration: .3s;
-}
-
-.nav div > a:hover {
-    color: black;
-    font-size: 16px;
-    transition-duration: .3s;
+    @media (max-width: 1419px) {
+        font-size: 13px;
+    }
 }
 
 a {
@@ -62,9 +82,15 @@ a {
     align-items: center;
     flex-direction: column;
     padding: 10px;
+    @media (max-width: 1419px) {
+        font-size: 13px;
+    }
 }
 
-.req {
+.req a {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.568);
+    &:hover {
+        color: rgba(0, 0, 0, 0.7)
+    }
 }
