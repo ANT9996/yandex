@@ -1,5 +1,5 @@
 import c from './Block_1.module.scss';
-import img from '../../assets/img/image2.png'
+import img from '../../assets/img/image2.webp'
 
 let Block1 = (p) => {
   return (<>

@@ -1,5 +1,5 @@
 import c from './Block_4.module.scss';
-import img from '../../assets/img/image3.png';
+import img from '../../assets/img/image3.webp';
 import phone1 from '../../assets/img/phone1.png';
 import phone2 from '../../assets/img/phone2.png';
 import googleplay from '../../assets/img/googleplay.png';

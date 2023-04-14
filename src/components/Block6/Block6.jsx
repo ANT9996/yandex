@@ -1,5 +1,5 @@
 import c from './Block_6.module.scss';
-import img from '../../assets/img/image4.png';
+import img from '../../assets/img/image4.webp';
 import sendEmail from './../../SendMessage';
 
 let Block6 = () => {

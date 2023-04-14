@@ -1,5 +1,5 @@
 import c from './Block_3.module.scss';
-import img from '../../assets/img/image.png';
+import img from '../../assets/img/image.webp';
 import calc from '../../assets/img/calc.svg';
 import money from '../../assets/img/money.svg';
 import wrench from '../../assets/img/wrench.svg';
