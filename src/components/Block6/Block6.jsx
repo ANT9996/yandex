@@ -5,7 +5,7 @@ import sendEmail from './../../SendMessage';
 let Block6 = () => {
     return (
         <div className={c.block_6}>
-            <div className={c.block_text}>
+            <div className={c.block_text} id={5}>
                 <div className='mb-4'><h2><b>Оставить заявку</b></h2></div>
                 <div className={c.form}>
                     <form onSubmit={sendEmail} action="#">

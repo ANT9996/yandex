@@ -10,9 +10,7 @@ let Block1 = (p) => {
             Работайте тогда, когда удобно<br></br>
             Крупнейший автопарк в г.Омске
           </div>
-          <div>
             <button className={c.button}>Заполнить анкету</button>
-          </div>
         </div>
         <div className={c.block_img}><img src={img} alt=""/></div>
       </div>

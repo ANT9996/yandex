@@ -1,7 +1,9 @@
 import c from './Return.module.scss'
 import arrow from '../../assets/img/arrow-up-svgrepo-com.svg'
+import {useEffect} from "react";
 
 const Return = () => {
+
   return (
     <button className={c.button} onClick={() => window.scrollTo(0,0)}>
       <img src={arrow} alt=""/>
